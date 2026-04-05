@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e1d830ffff.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Collections</title>
+  </head>
+  <body>
+    <!-- offers -->
+    <section class="border-b border-black">
+      <h4 class="text-gray-600 font-sans text-sm m-2 max-sm:text-xs">
+        FLAT 20% OFFER FOR KIDSWEAR | SHOP ₹2999
+      </h4>
+    </section>
+    <!-- navbar -->
+    <section class="navbar shadow-xl">
+      <h1 class="navbar__title font-extrabold text-3xl md:text-5xl">Nostra</h1>
+      <ul class="navbar__category">
+        <li class="hover:font-extrabold"><a href="./index.html">Home</a></li>
+        <li class="hover:font-extrabold">
+          <a href="./collections.html">Collections</a>
+        </li>
+        <li class="hover:font-extrabold">
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar__icons">
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+          </svg>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+            />
+          </svg>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 cursor-pointer"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+            />
+          </svg>
+        </li>
+      </ul>
+      <div id="menuicon" class="menuicon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6 cursor-pointer"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+    </section>
+    <!-- Side Navbar -->
+    <section id="sidenavbar" class="sidenavbar">
+      <div class="close">
+        <p id="closenavbar">X</p>
+      </div>
+      <ul class="side-navbar__category">
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="./collections.html">Collections</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </section>
+    <!-- filters -->
+    <section class="filter">
+      <div class="search">
+        <input
+          type="search"
+          name="search"
+          placeholder="search"
+          class="searchbox"
+          id="searchInput"
+        />
+      </div>
+      <div class="filter-box">
+        <div class="filter-box-list">
+          <h2 class="text-2xl font-semibold text-gray-600">Occasion</h2>
+          <label>
+            <input type="checkbox" class="occasion" value="Summer" />
+            Summer
+          </label>
+          <label>
+            <input type="checkbox" class="occasion" value="party" />
+            Party
+          </label>
+          <label>
+            <input type="checkbox" class="occasion" value="beach" />
+            Beach
+          </label>
+          <label>
+            <input type="checkbox" class="occasion" value="formal" />
+            Formal
+          </label>
+        </div>
+        <div class="filter-box-list">
+          <h2 class="text-2xl font-semibold text-gray-600">Colors</h2>
+          <label>
+            <input type="checkbox" class="colors" value="red" />
+            Red
+          </label>
+          <label>
+            <input type="checkbox" class="colors" value="blue" />
+            Blue
+          </label>
+          <label>
+            <input type="checkbox" class="colors" value="green" />
+            Green
+          </label>
+          <label>
+            <input type="checkbox" class="colors" value="white" />
+            White
+          </label>
+        </div>
+        <div class="filter-box-list">
+          <h2 class="text-2xl font-semibold text-gray-600">Category</h2>
+          <label>
+            <input type="checkbox" class="category" value="men" />
+            Men
+          </label>
+          <label>
+            <input type="checkbox" class="category" value="women" />
+            Women
+          </label>
+          <label>
+            <input type="checkbox" class="category" value="boys" />
+            Boys
+          </label>
+          <label>
+            <input type="checkbox" class="category" value="girls" />
+            Girls
+          </label>
+        </div>
+        <div class="filter-box-list">
+          <h2 class="text-2xl font-semibold text-gray-600">Price</h2>
+          <label>
+            <input type="checkbox" class="price" value="600" />
+            Under ₹600
+          </label>
+          <label>
+            <input type="checkbox" class="price" value="900" />
+            ₹700 - ₹900
+          </label>
+          <label>
+            <input type="checkbox" class="price" value="1300" />
+            ₹1000 - ₹1300
+          </label>
+          <label>
+            <input type="checkbox" class="price" value="2000" />
+            Above ₹1400
+          </label>
+        </div>
+      </div>
+    </section>
+    <!-- Collection-Products -->
+    <section class="collection-products p-4">
+      <div class="collection-products-list ml-8" id="productsContainer">
+        <div class="collection-product">
+          <img src="./images/product1.jpg" alt="" />
+          <h3>Men's Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1200</span>₹950</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product2.jpg" alt="" />
+          <h3>Men's White Party Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹950</span>₹600</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product3.jpg" alt="" />
+          <h3>Men's Blur Formal Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1100</span>₹950</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product4.jpg" alt="" />
+          <h3>Men's Party Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹900</span>₹700</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product5.jpg" alt="" />
+          <h3>Men's Green Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1299</span>₹1100</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product6.jpg" alt="" />
+          <h3>Men's Red Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1199</span>₹1150</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product7.jpg" alt="" />
+          <h3>Men's White Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹600</span>₹750</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product8.jpg" alt="" />
+          <h3>Men's Blue Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹950</span>₹750</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product9.jpg" alt="" />
+          <h3>Men's Blue Party Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1199</span>₹1150</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product10.jpg" alt="" />
+          <h3>Men's Green Formal Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1399</span>₹1050</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product11.jpg" alt="" />
+          <h3>Men's Red Formal Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1299</span>₹1099</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product12.jpg" alt="" />
+          <h3>Men's Blue Formal Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1499</span>₹1100</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product13.jpg" alt="" />
+          <h3>Men's Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1150</span>₹800</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product14.jpg" alt="" />
+          <h3>Men's White Formal Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1499</span>₹1100</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product15.jpg" alt="" />
+          <h3>Men's Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹900</span>₹550</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product16.jpg" alt="" />
+          <h3>Women's White Dress</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1200</span>₹900</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product17.webp" alt="" />
+          <h3>Women's Red Dress</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1300</span>₹950</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product18.jpg" alt="" />
+          <h3>Women's Blue Dress</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1100</span>₹920</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product19.webp" alt="" />
+          <h3>Girl's White Summer Dress</h3>
+          <p><span class="line-through mr-1 opacity-50">₹700</span>₹400</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product20.webp" alt="" />
+          <h3>Girl's Red Summer Dress</h3>
+          <p><span class="line-through mr-1 opacity-50">₹600</span>₹420</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product21.jpg" alt="" />
+          <h3>Boy's White Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹800</span>₹450</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product22.webp" alt="" />
+          <h3>Boy's Red Summer Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹700</span>₹470</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product23.webp" alt="" />
+          <h3>Boy's White Party Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹900</span>₹600</p>
+        </div>
+        <div class="collection-product">
+          <img src="./images/product24.jpg" alt="" />
+          <h3>Boy's Green Party Shirt</h3>
+          <p><span class="line-through mr-1 opacity-50">₹1499</span>₹950</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-gray-200 p-5 mt-3 flex flex-col gap-3">
+      <h1 class="font-bold text-4xl max-sm:text-2xl">NOSTRA</h1>
+      <p class="max-sm:text-xs">
+        Discover the ultimate shopping experience with our e-commerce platform!
+        Enjoy a wide range of products, unbeatable deals, and fast & free
+        shipping on every order—delivered right to your door.
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/"
+          ><i
+            onclick="facebook()"
+            class="fa-brands fa-facebook"
+            style="color: rgb(0, 0, 0)"
+          ></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i
+            onclick="instagram()"
+            class="fa-brands fa-instagram"
+            style="color: rgb(0, 0, 0)"
+          ></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i
+            onclick="youtube()"
+            class="fa-brands fa-youtube"
+            style="color: rgb(0, 0, 0)"
+          ></i
+        ></a>
+      </div>
+      <p>© 2026 nostra.com</p>
+    </section>
+    <script src="collections.js"></script>
+  </body>
+</html>
