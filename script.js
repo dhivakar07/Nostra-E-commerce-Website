@@ -21,7 +21,7 @@ menuicon.addEventListener("click", () => {
 });
 
 closenavbar.addEventListener("click", () => {
-  sidenavbar.style.right = "-50%";
+  sidenavbar.style.right = "-40%";
 });
 
 // cancel
