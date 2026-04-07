@@ -1,6 +1,7 @@
 body {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
+    background-color: rgba(211, 211, 211, 0.378);
 }
 
 html {
